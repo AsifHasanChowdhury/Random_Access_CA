@@ -351,9 +351,8 @@ a{
     margin-top: 35.8%; /* for demo purpose  */
 }
 .stack-top1{
-    /*margin-top: 250px;/
-      margin-top: min(300px,65%);
-      z-index: 6;
+    margin-top: min(300px,65%);
+    z-index: 6;
 }
 
 .general-info{
