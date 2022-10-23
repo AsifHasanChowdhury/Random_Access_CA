@@ -202,7 +202,7 @@ a{
 .hero{
     
     position:absolute;
-    height: 45vh;
+    min-height: 45vh;
     width: 100%;
     background:linear-gradient(rgba(84, 80, 80, 0.5),transparent); 
     background-color: #c4d8af;
@@ -351,8 +351,9 @@ a{
     margin-top: 35.8%; /* for demo purpose  */
 }
 .stack-top1{
-    margin-top: 250px;
-    z-index: 6;
+    /*margin-top: 250px;/
+      margin-top: min(300px,65%);
+      z-index: 6;
 }
 
 .general-info{
